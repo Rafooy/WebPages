@@ -1,0 +1,53 @@
+html{
+	background-color:black;
+	color: white;
+	margin: auto;
+}
+
+#h1_heading{
+	padding-left: 10px;
+	background-color: black;
+}
+
+#css_list{ /* not the whole list only the word list */
+	font-size: 20px;
+	padding: 2px 20px 0px 20px;
+}
+
+#music_video{
+	padding: 0px 10px 0px 10px;
+}
+
+.css_body{
+	background-color: rgb(54,54,54);
+}
+
+.css_desc{
+	padding: 0px 25px 5px 25px;
+}
+
+.contact_info{
+	padding:0px 5px 5px 10px;
+}
+
+nav{ /* used for list */
+	padding: 0px 10px 0px 10px;
+}
+
+ul{ /*removal of the dots in list */
+	list-style-type: none;
+}
+	
+
+a{
+	color: white;
+}
+
+a:visited{
+	color:white;
+}
+
+a:hover{
+	color: hotpink;
+}
+	

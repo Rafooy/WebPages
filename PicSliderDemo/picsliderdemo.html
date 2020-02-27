@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScirpt Picture Slider Demo</title>
+		<script type="text/javascript" src="picdemo.js"></script>
+		<link href="demos.css" type= "text/css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		<h1>DEMOS</h1>
+		
+		<p>Sample Text</p>
+		
+		<!-- Buttons with function prev() and next() which moves picture right or left -->
+		<div class="pic_slider">
+			<button onclick="prev()"> Prev </button>
+			<img id="slider" src="http://images4.fanpop.com/image/photos/19800000/Cherry-Blossom-Tree-trees-19838737-1152-720.jpg" width ="200px" height = "100px"/>
+			<button onclick="next()"> Next </button>
+		</div>
+		
+		<p></p>
+		
+		<!-- Click on the button to activate prompt which gets your name and puts it in id person -->
+		<div class = "prompt">
+			<button onclick="hello_person()">Prompt(name)! </button>
+			<p id="person"></p>
+		</div>
+		
+	</body>
+	
+</html>

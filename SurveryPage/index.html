@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+	<link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="title">Survery Form</h1>
+      <p id="description">This is a survey form to know more about you!</p>
+    </header>
+    
+    <main>
+      <form id="survey-form">
+        
+        <label id="name-label">Enter your Name:
+        <input type="text" placeholder="Enter your Name" id="name" name="name" required>
+        </label>
+        
+        <br>
+        
+        <label id="email-label">Enter your Email: </label>
+        <input type="email" placeholder="Enter your Email" id="email" name ="email" required>
+        
+        <p>
+          <label id="number-label"> Enter a number:</label>
+          <input type="number" id="number" name="number" min="0" max="100" step="1" placeholder="0">
+          </p>
+        
+        <div id=dropdown>
+          <p>Favorite Color:
+          <select>
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+            <option>Yellow</option>
+            <option>Purple</option>
+            <option>White</option>
+            <option>Black</option>
+          </select>
+          </p>
+        </div>
+        
+        <div id="gender">
+          <p>Gender: <br>
+          <input type="radio" name="gender" value="male" checked> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="other"> Other<br>
+          </p>
+        </div>
+        
+        <div id="flavors">
+          <p> Favorite ice cream flavor: <br>
+            <input type="checkbox" name = "flavors" value="vanilla" checked> Vanilla<br>
+            <input type="checkbox" name="flavors" value="chocolate"> Chocolate<br>
+            <input type="checkbox" name="flavors"
+                   value="mint chocolate"> Mint Chocolate Chip<br>
+            <input type="checkbox" name="flavors" value="orange"> Orange<br>
+            <input type="checkbox" name="flavors" value="coffee"> Coffee<br>
+            <input type="checkbox" name="flavors" value="other"> Other <br>
+          </p>
+          
+          <div>
+            <textarea id="msg" name="msg" maxlength="280" rows="5" placeholder="Leave a  Message"></textarea>
+          </div>
+  
+        <button type="submit" id=submit>Submit</button>
+      </form>
+    </main>
+      <footer>
+        <p>Thank you for taking the survey!</p>
+      </footer>
+  </body>
+  
+</html>

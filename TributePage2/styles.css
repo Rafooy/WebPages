@@ -1,0 +1,158 @@
+li{
+  margin-top: 1.5%;
+  margin-left: -2.5vw;
+}
+
+#timeline-ul{
+  list-style-type:none;
+}
+
+nav{
+  align: left;
+  top:0;
+  position: fixed;
+  width: 100%;
+  display: block;
+  background-color: hsl(0, 0%, 10%);
+  font-size: 1.5vw;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-a{
+  color: white;
+  text-decoration: none;
+  padding-left: 1.5vw;
+}
+
+#title{
+  font-size: 5vw;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#title-caption{
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+#image{
+  display:block;
+  margin:auto;
+  width: 60%;
+  height: auto;
+  max-width: 100%;
+}
+
+#kojima-logo{
+  display:block;
+  margin: auto;
+  width: 50%;
+  height:auto;
+  max-width: 100%;
+}
+
+#img-caption{
+  padding-top: 0.25%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+main{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.external-li{
+  list-style-type: none;
+}
+
+.tribute-info-head::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -11vh;
+  height: 11vh; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+#quote{
+  text-align: center;
+}
+
+#q-auth{
+  text-align: right;
+}
+
+footer{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media (min-width: 320px) and (max-width:480px){
+  li{
+    margin-top: 5%;
+    margin-left: -10vw;
+  }
+  
+  nav{
+    align: left;
+    top:0;
+    position: fixed;
+    width: 100%;
+    display: block;
+    background-color: hsl(0, 0%, 10%);
+    font-size: 2.35vw;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #title{
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 7%;
+  }
+  
+  #title-caption{
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  
+  #image{
+    display:block;
+    margin:auto;
+    width: 85%;
+    height: auto;
+  }
+  
+  #kojima-logo{
+    display:block;
+    margin: auto;
+    width: 75%;
+    height:auto;
+    max-width: 100%;
+  }
+  
+  #img-caption{
+    font-size: 3vw;
+    padding-top: 0.25%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+  .tribute-info-head::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -7vh;
+    height: 7vh; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+}

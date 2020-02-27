@@ -1,0 +1,134 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1460px;
+	margin: 0auto;
+}
+
+.header{
+	background-color: black;
+	padding: 5px 20px;
+}
+
+.nav li{
+	color: white;
+	text-transform: uppercase;
+	display:inline;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 600;
+	margin-right: 25px;
+}
+
+.cover{
+	background-image: url(https://img.clipartfest.com/e8f050059ed2c7dc2241488c49aff81b_cityscape-clip-art-clipart-download-cityscape-clipart_8000-4153.png),url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/09/Black-Minimalistic-HD-Wallpapers.jpg);
+	background-size: cover, cover;
+	height: 500px;
+}
+
+.main{
+	text-align: center;
+	color: white;
+}
+
+.main{
+	font-weight: 600px;
+	font-size: 70px;
+}
+
+.restaurantheader{
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 22px;
+	
+}
+
+.contain{
+	max-width: 1460px;
+	margin: 0auto;
+	padding: 0 10px;
+}
+ 
+h3{
+	font-family: 'Great Vibes', cursive;
+	color: black;
+	position: relative;
+	text-align: left;
+	margin: 0;
+}
+
+.ttitle{
+	font-size:45px;
+}
+
+table{
+	margin: 300px;
+	border: 1px solid black;
+}
+
+td{
+	border: 1px solid black;
+}
+
+th{
+	border: 1px solid black;
+}
+
+p{
+	font-family:'Oswald', sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.restimg{
+	padding-left: 520px;
+	padding-right: 100px;
+}
+
+.food{
+	padding-left:120px;
+	padding-right: 100px;
+}
+
+h3{
+	font-size: 30px;
+	text-align: center;
+}
+
+#liufiximg{
+	padding-left:350px;
+}
+
+#giaimgfix{
+	padding-left: 275px;
+}
+
+#joeimgfix{
+	padding-left:500px;
+}
+
+#thanhdaimgfix{
+	padding-left:245px;
+}
+
+body{
+	border: 5px solid black;
+	margin-right: 100px;
+	margin-left: 100px;
+	background-color: rgb(233,233,233);
+}
+
+html{
+	background-image: url(http://files.vladstudio.com/joy/new_york_dark/wall/vladstudio_new_york_dark_1024x768_signed.jpg);
+	background-size: repeat-y;
+}
+
+
+
+
+
