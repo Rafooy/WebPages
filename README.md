@@ -1,2 +1,2 @@
 # WebPages
-This will be a collection of web pages that I can find.
+This will be a collection of web pages.
